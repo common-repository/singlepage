@@ -1,0 +1,150 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+	text-decoration: none!important;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+/* navbar ur */
+nav.navbar.navbar-expand-lg.navbar-light.sticky-top {
+  background-color: #fff !important;
+  box-shadow: 2px 2px 5px #eee;
+}
+#div_1 i[title]{
+  background-color:#ff0000 !important;
+}
+#Roadmap-section .row{
+  justify-content: center;
+}
+.card-body{
+  padding-right:0px !important;
+}
+
+@media (min-width: 500px) {
+  
+  #button {
+    margin: 30px;
+  }
+}
+p{line-height: 35px;}
+.navbar-light .navbar-nav .nav-link {
+    color: #212832;
+    font-size: 18px;
+}
+.text-md-start {
+  text-align:center!important; 
+}
+.text-md-start {
+    text-align: center !important;
+}
+.navbar-nav{
+	margin:0px auto;
+}
+a.navbar-brand {
+  width: 200px;
+  height: 50px;
+  overflow: hidden;
+}
+.buddy img {
+    width: auto;
+}
+.card-img-top {
+  width: auto !important;
+  margin: 0px auto;
+}
+.social-links{
+	
+	text-align:center;
+	display: inline-block;
+}
+a.social-box {
+    padding: 0 20px;
+    font-size: 2em;
+
+}
+img.footer-logo {
+  width: auto;
+  margin: 0px auto;
+  
+}
+@media (max-width: 991px) {
+.nav-link.line{display: none;}
+a.social-box {
+    padding: 0 5px;
+}
+.card-img-top {
+    width: 50% !important;
+    margin: 0px auto;
+}
+.buddy img {
+    width: 100%;
+	margin-bottom: 30px;
+}
+}
+@media (max-width: 768px){
+  img.footer-logo {
+    width: 38%;
+    margin: 0px auto;
+    height: auto ;
+}
+}
+@media (max-width: 426px){
+  a.btn.btn-lg.btn-warning.me-3{
+    padding : 10px 20px  !important;
+    margin-right:0 !important;
+  }
+.buddy img {
+      width: 40%;
+      margin-bottom: 30px;
+}
+img.footer-logo {
+    width: auto;
+    margin: 0px auto;
+    height: 20%;
+}
+.navbar-brand {
+    margin-right: 0 !important;
+}
+a.navbar-brand img {
+  width: 120px !important;
+}
+button.navbar-toggler {
+    margin-bottom: 10px !important;
+  }
+}
+
+
+
+
+
+
+
